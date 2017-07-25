@@ -1,4 +1,4 @@
-document.addEventListener("click",function gymStatus() {
+window.addEventListener("load",function gymStatus() {
 	var gymState = ["open",
 	       		"closed"];
 	var now = new Date(); 

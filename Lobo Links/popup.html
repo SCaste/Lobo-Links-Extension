@@ -29,19 +29,30 @@
      -->
   </head>
   <body>
+    <link rel="stylesheet" href="buttonColors.css"/>
+
     <div id="status"></div>
     <img id="image-result" hidden>
 
-    <button id = "open_learn"> Learn </button>
+    <h1 class = "intro">Lobo-Links</h1>
+    
+    <button class = "open_learn" id = "open_learn">
+	    <img src = "bblearn.png" class = "learnPic"/>
+    </button>
+
     <script src = "learn.js"></script>
  
-    <button id = "open_myUNM">My UNM</button>
+    <button id = "open_myUNM">
+	    <img src = "myunm.png" class = "myUnmPic"/>
+    </button>
     <script src = "myUNM.js"></script>
   
-    <button id = "open_finals">Finals</button>
+    <button class = "open_finals" id = "open_finals">
+	    <img src = "finalsTemp.jpg" class = "finalsPic"/>
+    </button>
     <script src = "finals.js"></script>
-
-    <p id = "gym_status">hi there</p> 
+   
+    <p id = "gym_status">Here it is:</p> 
     <script src = "gymStatus.js"></script>
   </body>
 </html>
