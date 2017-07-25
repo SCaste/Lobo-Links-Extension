@@ -1,0 +1,29 @@
+.open_finals {
+	background-color:red;
+	cursor:pointer;
+}
+.learnPic{
+
+	padding: 1px;
+	width: 50px;
+	margin: auto;
+}
+
+.myUnmPic{
+
+	padding: 1px;
+	width: 50px;
+	margin: auto;
+
+}
+.finalsPic{
+
+	padding: 1px;
+	width: 50px;
+	margin: auto;
+
+}
+.intro{
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
