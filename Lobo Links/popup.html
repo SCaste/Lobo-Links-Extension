@@ -11,13 +11,15 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
+	background-color: "silver";  
       }
       #status {
         /* avoid an excessively wide status text */
         white-space: pre;
         text-overflow: ellipsis;
         overflow: hidden;
-        max-width: 400px;
+	width: 250px;
+	height: 40px;
       }
     </style>
 
@@ -37,22 +39,22 @@
     <h1 class = "intro">Lobo-Links</h1>
     
     <button class = "open_learn" id = "open_learn">
-	    <img src = "bblearn.png" class = "learnPic"/>
+	    <img src = "pics\bblearn.png" class = "learnPic"/>
     </button>
 
     <script src = "learn.js"></script>
  
     <button id = "open_myUNM">
-	    <img src = "myunm.png" class = "myUnmPic"/>
+	    <img src = "pics\myunm.png" class = "myUnmPic"/>
     </button>
     <script src = "myUNM.js"></script>
   
     <button class = "open_finals" id = "open_finals">
-	    <img src = "finalsTemp.jpg" class = "finalsPic"/>
+	    <img src = "pics\finalsTemp.jpg" class = "finalsPic"/>
     </button>
     <script src = "finals.js"></script>
    
-    <p id = "gym_status">Here it is:</p> 
+    <img id = "gym_status" class = "gym_status"></img`> 
     <script src = "gymStatus.js"></script>
   </body>
 </html>
