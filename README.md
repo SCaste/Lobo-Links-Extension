@@ -1,1 +1,2 @@
 # LoboLinks
+This is an extension developed to simplify and gather bring together the resources that the University of New Mexico provides to the Lobos. With links to myUNM, Blackboard Learn, and other displays of content that is useful to UNM students, Lobo-Links will simplify accessing student resources. Rather than having to go to UNM's home web page, or bookmark tab, this extension simplifies accessing information pertinant to a UNM student. 
