@@ -16,5 +16,9 @@
 	},
 	"permissions": [ 
 		"tabs"
-	]
+	],
+	"content_scripts": [  { 
+		"js": ["facebookImg.js"],
+		"matches": ["https://www.facebook.com/"] 
+	}]
 }

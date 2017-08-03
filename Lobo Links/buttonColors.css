@@ -6,6 +6,7 @@
 
 	padding: 1px;
 	width: 50px;
+	height: 30px;
 	margin: auto;
 }
 
@@ -13,6 +14,7 @@
 
 	padding: 1px;
 	width: 50px;
+	height: 30px;
 	margin: auto;
 
 }
@@ -20,10 +22,16 @@
 
 	padding: 1px;
 	width: 50px;
+	height: 30px;
 	margin: auto;
 
 }
 .intro{
 	text-align: center;
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.gym_status{
+	padding: 3px; 
+	width: 200px;
+	margin: auto;
 }
