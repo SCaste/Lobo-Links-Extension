@@ -11,7 +11,8 @@
       body {
         font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
         font-size: 100%;
-	background-color: "silver";  
+	background-color: #DD4444;  
+	outline-color: #FFFFFF;
       }
       #status {
         /* avoid an excessively wide status text */
@@ -24,16 +25,12 @@
     </style>
 
     <!--
-      - JavaScript and HTML must be in separate files: see our Content Security
-      - Policy documentation[1] for details and explanation.
-      -
-      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
-     -->
+    - Google Content Policy forces Javascript to be held in seperate files.
+    -->
   </head>
   <body>
-    <link rel="stylesheet" href="buttonColors.css"/>
+    <link rel="stylesheet" href="LLStyle.css"/>
 
-    <div id="status"></div>
     <img id="image-result" hidden>
 
     <h1 class = "intro">Lobo-Links</h1>
@@ -56,6 +53,13 @@
    
     <img id = "gym_status" class = "gym_status"></img`> 
     <script src = "gymStatus.js"></script>
+   
+    <script src = "jquery-3.2.1.min.js"> </script> 
+    <script src = "unmWeather.js"></script>
+    <p id = "weather_at_unm"></p> 
+    <img id = "weather_status"></img>
+    <p class= "weather_credits" id = "weather_credits"></p>
+
   </body>
 </html>
 
