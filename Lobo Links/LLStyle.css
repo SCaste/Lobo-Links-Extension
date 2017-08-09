@@ -1,0 +1,37 @@
+.learnPic{
+
+	padding: 1px;
+	width: 50px;
+	height: 30px;
+	margin: auto;
+}
+
+.myUnmPic{
+
+	padding: 1px;
+	width: 50px;
+	height: 30px;
+	margin: auto;
+
+}
+.finalsPic{
+
+	padding: 1px;
+	width: 50px;
+	height: 30px;
+	margin: auto;
+
+}
+.intro{
+	text-align: center;
+	background-color: #FFFFFF;
+	font-family: 'Actor', sans-serif;
+}
+.gym_status{
+	padding: 3px; 
+	width: 200px;
+	margin: auto;
+}
+.weather_credits{
+	font-size: 8px;
+}
