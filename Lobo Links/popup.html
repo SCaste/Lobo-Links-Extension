@@ -32,32 +32,40 @@
     <link rel="stylesheet" href="LLStyle.css"/>
 
     <img id="image-result" hidden>
-
-    <h1 class = "intro">Lobo-Links</h1>
-    
+    <img src = "pics\LoboLinks.png" class = "LLIcon"/>
+   
+    <!-- Learn Button --> 
     <button class = "open_learn" id = "open_learn">
 	    <img src = "pics\bblearn.png" class = "learnPic"/>
     </button>
-
     <script src = "learn.js"></script>
  
+    <!-- MyUNM Button --> 
     <button id = "open_myUNM">
 	    <img src = "pics\myunm.png" class = "myUnmPic"/>
     </button>
     <script src = "myUNM.js"></script>
   
+    <!-- Finals Button --> 
     <button class = "open_finals" id = "open_finals">
-	    <img src = "pics\finalsTemp.jpg" class = "finalsPic"/>
+	    <img src = "pics\finals.png" class = "finalsPic"/>
     </button>
     <script src = "finals.js"></script>
    
-    <img id = "gym_status" class = "gym_status"></img`> 
+    <!-- Gym Status Display --> 
+    <img id = "gym_status" class = "gym_status"></img> 
     <script src = "gymStatus.js"></script>
    
+    
+    <!-- Weather Display --> 
     <script src = "jquery-3.2.1.min.js"> </script> 
     <script src = "unmWeather.js"></script>
-    <p id = "weather_at_unm"></p> 
-    <img id = "weather_status"></img>
+    <p id = "weather_at_unm"></p>
+    <p id = "currently"></p>
+    <img id = "weather_status" class = "weather_status"></img>
+    <br>
+    <img class = "mm_weather" id = "mm_weather"></img> 
+    <p id = "min_max_temp"></p>
     <p class= "weather_credits" id = "weather_credits"></p>
 
   </body>
