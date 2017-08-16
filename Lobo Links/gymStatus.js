@@ -13,10 +13,15 @@ window.addEventListener("load",function gymStatus() {
 	in order to display the status of gym.
 	Source:http://recsvcs.unm.edu/hours/Hours.html 
      */
-        //Weekdays	
-	if (now.getDay() >= 1 && now.getDay() <= 5) {
-		console.log(now.getDay() + " " + now.getHours());
-		if (now.getHours() > 6 && now.getHours() < 21 ){
+        //Monday-Thursday	
+	if (now.getDay() > 0 && now.getDay() < 5) {
+		if (now.getHours() >= 6 && now.getHours() < 23 ){
+			document.getElementById("gym_status").src = gym_state[0];
+		}	
+	}
+	//Friday
+	if (now.getDay() == 5) {
+		if (now.getHours() >= 6 && now.getHours() < 22 ){
 			document.getElementById("gym_status").src = gym_state[0];
 		}	
 	}

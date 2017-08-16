@@ -1,3 +1,8 @@
+.LLIcon{
+	width:250px; 
+	height: 100px;
+}
+
 .learnPic{
 
 	padding: 1px;
@@ -35,3 +40,10 @@
 .weather_credits{
 	font-size: 8px;
 }
+.mm_weather{
+	width: 75px;
+}
+.weather_status{
+	width: 75px;
+}
+
