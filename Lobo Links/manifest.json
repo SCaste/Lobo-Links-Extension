@@ -1,8 +1,8 @@
 { 
 	"manifest_version" : 2, 
 
-	"name": "UNM Finals", 
-	"description": "This extension will display your assigned fianls time",
+	"name": "Lobo-Links", 
+	"description": "For Lobos, an extension with links to Learn, MyUNM, and active weather display at the University of New Mexico.",
 	"version": "1.0", 
 
 	"browser_action": {
@@ -12,13 +12,9 @@
 	},
 	
 	"background":{
-		"scripts":["gymStatus.js"]
+		"scripts":["gymStatus.js","unmWeather.js"]
 	},
 	"permissions": [ 
 		"tabs"
-	],
-	"content_scripts": [  { 
-		"js": ["facebookImg.js"],
-		"matches": ["https://www.facebook.com/"] 
-	}]
+	]
 }
