@@ -9,7 +9,8 @@ Google Chrome
 1. Ensure that you have Google Chrome downloaded
 ```
 ```
-2. Download the Lobo-Links extention folder on the main page and save it to a location with the "pics" folder as a subfolder.
+2. Download the Lobo-Links extention folder on the main page and save it 
+   to a location with the "pics" folder as a subfolder.
 ```
 ```
 3. Navigate to chrome://extensions/, and ensure that developer mode is checked.
