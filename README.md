@@ -13,9 +13,9 @@ Google Chrome
    to a location with the "pics" folder as a subfolder.
 ```
 ```
-3. Navigate to chrome://extensions/, and ensure that developer mode is checked.
+3. Navigate to chrome://extensions/, and verify that developer mode is checked.
 ```
 ```
-4. Click load unpacked extension and ensure that you provide it with the "Lobo Links" folder. 
+4. Click load unpacked extension and provide it with the "Lobo Links" folder. 
 ```
 
