@@ -13,7 +13,8 @@ Google Chrome
    to a location with the "pics" folder as a subfolder.
 ```
 ```
-3.Go to http://openweathermap.org/ and sign up to recieve an API key to place inside of the weather.js where it is commented in 
+3.Go to http://openweathermap.org/ and sign up to recieve an API key to 
+  place inside of the weather.js where it is commented in 
   order to be able to utilize their API.
 ```
 ```
