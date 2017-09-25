@@ -13,9 +13,13 @@ Google Chrome
    to a location with the "pics" folder as a subfolder.
 ```
 ```
-3. Navigate to chrome://extensions/, and verify that developer mode is checked.
+3.Go to http://openweathermap.org/ and sign up to recieve an API key to place inside of the weather.js where it is commented in 
+  order to be able to utilize their API.
 ```
 ```
-4. Click load unpacked extension and provide it with the "Lobo Links" folder. 
+4. Navigate to chrome://extensions/, and verify that developer mode is checked.
+```
+```
+5. Click load unpacked extension and provide it with the "Lobo Links" folder. 
 ```
 
