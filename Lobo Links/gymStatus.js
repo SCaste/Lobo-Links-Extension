@@ -17,20 +17,30 @@ window.addEventListener("load",function gymStatus() {
 	if (now.getDay() > 0 && now.getDay() < 5) {
 		if (now.getHours() >= 6 && now.getHours() < 23 ){
 			document.getElementById("gym_status").src = gym_state[0];
+		}else {
+			document.getElementById("gym_status").src =
+				gym_state[1]; 
 		}	
+		
 	}
 	//Friday
 	if (now.getDay() == 5) {
 		if (now.getHours() >= 6 && now.getHours() < 22 ){
 			document.getElementById("gym_status").src = gym_state[0];
+		}else{	
+		       document.getElementById("gym_status").src =
+			       gym_state[1];
 		}	
 	}
 	//Sunday and Saturday
-	else if (now.getDay() == 0 || now.getDay() == 6) {    
-	       if (now.getHours() >= 12 && now.getHours() <= 19) {
+	else if(now.getDay() == 0 || now.getDay() == 6) {
+	       if(now.getHours() >= 12 && now.getHours() <= 19) {
 		       document.getElementById("gym_status").src = gym_state[0];
+	       }else { 
+		       document.getElementById("gym_status").src =
+			       gym_state[1]; 
 	       }
+	       
 	}
-	else   document.getElementById("gym_status").src = gym_state[1]; 
 });
 		
